@@ -18,7 +18,7 @@ header {
 
 .ais-SearchBox__wrapper input {
   max-width: 100%;
-  border: 2px solid #581908;
+  border: 2px solid #d04a37;
 }
 
 main {
@@ -43,31 +43,35 @@ main {
 .movie {
   display: flex;
   flex-direction: column;
-  max-width: 200px;
+  max-width: 154px;
   padding: 10px;
 }
 
 .movie img {
-  width: 200px;
-  height: 330px;
+  width: 154px;
+  height: 231px;
 }
 
 .movie .title {
   padding: 5px;
-  background-color: #983628;
+  background-color: #d04a37;
 }
 
 .ais-Highlight .ais-Highlight__highlighted {
-  background-color: rgba(255, 193, 94, 0.73);
+  background-color: #5f0c00;
 }
 
 .ais-RefinementList__itemLabel {
-  color: #983628;
+  color: #d04a37;
   margin-right: 5px;
 }
 
+.ais-RefinementList__itemLabel:hover {
+  color: #f35a44;
+}
+
 .ais-RefinementList__itemCount {
-  background-color: #983628;
+  background-color: #d04a37;
   color: white;
   float: right;
 }
@@ -75,8 +79,8 @@ main {
 .ais-RefinementList__item
   input[type='checkbox']:checked
   ~ .ais-RefinementList__itemBox {
-  border-color: #581908;
-  background: #581908
+  border-color: #d04a37;
+  background: #d04a37
     url("data:image/svg+xml;utf8,<svg viewBox='0 0 10 9' xmlns='http://www.w3.org/2000/svg'><path d='M1 4.88l2.378 2.435L9.046 1.6' stroke-width='1.6' stroke='%23FFF' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'/></svg>")no-repeat
     50% / 10px;
 }
